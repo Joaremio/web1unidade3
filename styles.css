@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.card-style {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;  /* Faz com que o fundo se ajuste ao tamanho do conteúdo */
+    padding: 5px 10px;      /* Ajuste o padding conforme necessário */
+    margin: 0 auto;         /* Centraliza o elemento */
+}
+header{
+    text-align: center;
+}
+
+#conteudo {
+    margin-top: 50px;
+    display: flex;             /* Usar flexbox */
+    flex-direction: column;    /* Faz com que as divs fiquem em uma coluna */
+    justify-content: center;   /* Centraliza as divs na vertical */
+    align-items: center;       /* Centraliza as divs horizontalmente */
+}
+
+.card-image img {
+    width: 350px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: transparent;
+    object-fit: cover; /* Ajusta o tamanho */
+}
+
+#veiculo-title{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card-details{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 40px;
+}
